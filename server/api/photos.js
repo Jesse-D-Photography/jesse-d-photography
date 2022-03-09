@@ -1,4 +1,5 @@
 const router = require('express').router()
+const Photos = require('../db/photosModel')
 
 // Get ALL Routes
 
