@@ -16,3 +16,6 @@ sequelize.sync({ force: false }).then(() => {
 });
 
 
+app.use('/api', require('./api'))
+
+module.exports = app
